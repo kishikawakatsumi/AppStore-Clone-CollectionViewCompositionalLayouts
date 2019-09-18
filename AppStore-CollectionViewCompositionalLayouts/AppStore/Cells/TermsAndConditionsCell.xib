@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="JR5-hg-hLS" customClass="TermsAndConditionsCell" customModule="AppStore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="w3C-aU-lrP">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Terms &amp; Conditions ›" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIg-dv-fyb">
+                        <rect key="frame" x="20" y="34.5" width="335" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" systemColor="secondaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OXv-Tw-Npt" userLabel="Separator">
+                        <rect key="frame" x="20" y="20" width="335" height="0.5"/>
+                        <color key="backgroundColor" systemColor="separatorColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.28999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="dPs-vk-UX7"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="OXv-Tw-Npt" firstAttribute="top" secondItem="w3C-aU-lrP" secondAttribute="top" constant="20" id="7bH-23-8BM"/>
+                    <constraint firstAttribute="trailing" secondItem="oIg-dv-fyb" secondAttribute="trailing" constant="20" id="BWv-P6-gpm"/>
+                    <constraint firstItem="oIg-dv-fyb" firstAttribute="leading" secondItem="w3C-aU-lrP" secondAttribute="leading" constant="20" id="Ja2-Qi-XJa"/>
+                    <constraint firstItem="OXv-Tw-Npt" firstAttribute="leading" secondItem="w3C-aU-lrP" secondAttribute="leading" constant="20" id="atb-ke-ba2"/>
+                    <constraint firstAttribute="trailing" secondItem="OXv-Tw-Npt" secondAttribute="trailing" constant="20" id="nCl-I5-Pbe"/>
+                    <constraint firstAttribute="bottom" secondItem="oIg-dv-fyb" secondAttribute="bottom" constant="16" id="xXz-8j-6qz"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <point key="canvasLocation" x="-54" y="227"/>
+        </collectionViewCell>
+    </objects>
+</document>

@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		143A2D0722F9C81D00F8904D /* IBPCollectionViewCompositionalLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143A2CFD22F9C81D00F8904D /* IBPCollectionViewCompositionalLayout.framework */; };
+		143A2D0C22F9C81D00F8904D /* IBPCollectionViewCompositionalLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D0B22F9C81D00F8904D /* IBPCollectionViewCompositionalLayoutTests.m */; };
+		143A2D0E22F9C81D00F8904D /* IBPCollectionViewCompositionalLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D0022F9C81D00F8904D /* IBPCollectionViewCompositionalLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D4C22F9CBB300F8904D /* IBPNSCollectionLayoutSupplementaryItem_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D1722F9CBB000F8904D /* IBPNSCollectionLayoutSupplementaryItem_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		143A2D4D22F9CBB300F8904D /* IBPNSCollectionLayoutGroupCustomItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D1822F9CBB000F8904D /* IBPNSCollectionLayoutGroupCustomItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D4E22F9CBB300F8904D /* IBPNSRectAlignment.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D1922F9CBB000F8904D /* IBPNSRectAlignment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D4F22F9CBB300F8904D /* IBPNSCollectionLayoutSize_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D1A22F9CBB000F8904D /* IBPNSCollectionLayoutSize_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		143A2D5022F9CBB300F8904D /* IBPNSCollectionLayoutGroup_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D1B22F9CBB000F8904D /* IBPNSCollectionLayoutGroup_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		143A2D5122F9CBB300F8904D /* IBPCollectionViewOrthogonalScrollerSectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D1C22F9CBB000F8904D /* IBPCollectionViewOrthogonalScrollerSectionController.m */; };
+		143A2D5222F9CBB300F8904D /* IBPNSCollectionLayoutAnchor.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D1D22F9CBB000F8904D /* IBPNSCollectionLayoutAnchor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D5322F9CBB300F8904D /* IBPNSCollectionLayoutSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D1E22F9CBB000F8904D /* IBPNSCollectionLayoutSection.m */; };
+		143A2D5522F9CBB300F8904D /* IBPNSCollectionLayoutGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D2022F9CBB100F8904D /* IBPNSCollectionLayoutGroup.m */; };
+		143A2D5622F9CBB300F8904D /* IBPNSCollectionLayoutSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D2122F9CBB100F8904D /* IBPNSCollectionLayoutSpacing.m */; };
+		143A2D5722F9CBB300F8904D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D2222F9CBB100F8904D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m */; };
+		143A2D5822F9CBB300F8904D /* IBPNSCollectionLayoutSupplementaryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D2322F9CBB100F8904D /* IBPNSCollectionLayoutSupplementaryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D5922F9CBB300F8904D /* IBPCollectionCompositionalLayoutSolverResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D2422F9CBB100F8904D /* IBPCollectionCompositionalLayoutSolverResult.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		143A2D5A22F9CBB300F8904D /* IBPNSCollectionLayoutEnvironment.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D2522F9CBB100F8904D /* IBPNSCollectionLayoutEnvironment.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		143A2D5B22F9CBB300F8904D /* IBPNSCollectionLayoutBoundarySupplementaryItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D2622F9CBB100F8904D /* IBPNSCollectionLayoutBoundarySupplementaryItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D5E22F9CBB300F8904D /* IBPNSCollectionLayoutGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D2922F9CBB100F8904D /* IBPNSCollectionLayoutGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D5F22F9CBB300F8904D /* IBPNSCollectionLayoutEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D2A22F9CBB100F8904D /* IBPNSCollectionLayoutEnvironment.m */; };
+		143A2D6022F9CBB300F8904D /* IBPNSCollectionLayoutDimension.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D2B22F9CBB100F8904D /* IBPNSCollectionLayoutDimension.m */; };
+		143A2D6122F9CBB300F8904D /* IBPCollectionViewOrthogonalScrollerSectionController.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D2C22F9CBB100F8904D /* IBPCollectionViewOrthogonalScrollerSectionController.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		143A2D6222F9CBB300F8904D /* IBPUICollectionViewCompositionalLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D2D22F9CBB100F8904D /* IBPUICollectionViewCompositionalLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D6322F9CBB300F8904D /* IBPUICollectionViewCompositionalLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D2E22F9CBB100F8904D /* IBPUICollectionViewCompositionalLayout.m */; };
+		143A2D6422F9CBB300F8904D /* IBPNSCollectionLayoutSection_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D2F22F9CBB100F8904D /* IBPNSCollectionLayoutSection_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		143A2D6522F9CBB300F8904D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D3022F9CBB100F8904D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		143A2D6622F9CBB300F8904D /* IBPNSCollectionLayoutDecorationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D3122F9CBB100F8904D /* IBPNSCollectionLayoutDecorationItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D6722F9CBB300F8904D /* IBPNSCollectionLayoutDecorationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D3222F9CBB100F8904D /* IBPNSCollectionLayoutDecorationItem.m */; };
+		143A2D6822F9CBB300F8904D /* IBPNSCollectionLayoutEnvironment_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D3322F9CBB100F8904D /* IBPNSCollectionLayoutEnvironment_Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D6922F9CBB300F8904D /* IBPNSCollectionLayoutItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D3422F9CBB100F8904D /* IBPNSCollectionLayoutItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D6A22F9CBB300F8904D /* IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D3522F9CBB200F8904D /* IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D6B22F9CBB300F8904D /* IBPNSCollectionLayoutEdgeSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D3622F9CBB200F8904D /* IBPNSCollectionLayoutEdgeSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D6C22F9CBB300F8904D /* IBPNSCollectionLayoutItem_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D3722F9CBB200F8904D /* IBPNSCollectionLayoutItem_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		143A2D6D22F9CBB300F8904D /* IBPNSDirectionalRectEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D3822F9CBB200F8904D /* IBPNSDirectionalRectEdge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D6E22F9CBB300F8904D /* IBPNSCollectionLayoutBoundarySupplementaryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D3922F9CBB200F8904D /* IBPNSCollectionLayoutBoundarySupplementaryItem.m */; };
+		143A2D6F22F9CBB300F8904D /* IBPNSCollectionLayoutGroupCustomItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D3A22F9CBB200F8904D /* IBPNSCollectionLayoutGroupCustomItem.m */; };
+		143A2D7022F9CBB300F8904D /* IBPNSCollectionLayoutSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D3B22F9CBB200F8904D /* IBPNSCollectionLayoutSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D7122F9CBB300F8904D /* IBPNSCollectionLayoutContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D3C22F9CBB200F8904D /* IBPNSCollectionLayoutContainer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		143A2D7322F9CBB300F8904D /* IBPUICollectionViewCompositionalLayoutConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D3E22F9CBB200F8904D /* IBPUICollectionViewCompositionalLayoutConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D7422F9CBB300F8904D /* IBPUICollectionViewCompositionalLayoutConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D3F22F9CBB200F8904D /* IBPUICollectionViewCompositionalLayoutConfiguration.m */; };
+		143A2D7522F9CBB300F8904D /* IBPNSCollectionLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D4022F9CBB200F8904D /* IBPNSCollectionLayoutItem.m */; };
+		143A2D7622F9CBB300F8904D /* IBPNSCollectionLayoutVisibleItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D4122F9CBB200F8904D /* IBPNSCollectionLayoutVisibleItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D7722F9CBB300F8904D /* IBPNSCollectionLayoutDimension.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D4222F9CBB200F8904D /* IBPNSCollectionLayoutDimension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D7822F9CBB300F8904D /* IBPCollectionCompositionalLayoutSolverResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D4322F9CBB200F8904D /* IBPCollectionCompositionalLayoutSolverResult.m */; };
+		143A2D7922F9CBB300F8904D /* IBPNSCollectionLayoutAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D4422F9CBB300F8904D /* IBPNSCollectionLayoutAnchor.m */; };
+		143A2D7A22F9CBB300F8904D /* IBPNSCollectionLayoutSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D4522F9CBB300F8904D /* IBPNSCollectionLayoutSize.m */; };
+		143A2D7B22F9CBB300F8904D /* IBPNSCollectionLayoutContainer_Protocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D4622F9CBB300F8904D /* IBPNSCollectionLayoutContainer_Protocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D7C22F9CBB300F8904D /* IBPNSCollectionLayoutEdgeSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D4722F9CBB300F8904D /* IBPNSCollectionLayoutEdgeSpacing.m */; };
+		143A2D7D22F9CBB300F8904D /* IBPNSCollectionLayoutContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D4822F9CBB300F8904D /* IBPNSCollectionLayoutContainer.m */; };
+		143A2D7E22F9CBB300F8904D /* IBPNSCollectionLayoutSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D4922F9CBB300F8904D /* IBPNSCollectionLayoutSize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D7F22F9CBB300F8904D /* IBPNSCollectionLayoutSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D4A22F9CBB300F8904D /* IBPNSCollectionLayoutSpacing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143A2D8022F9CBB300F8904D /* IBPNSCollectionLayoutSupplementaryItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 143A2D4B22F9CBB300F8904D /* IBPNSCollectionLayoutSupplementaryItem.m */; };
+		143A2D8322F9CCF900F8904D /* IBPNSDirectionalEdgeInsets.h in Headers */ = {isa = PBXBuildFile; fileRef = 143A2D8122F9CCF900F8904D /* IBPNSDirectionalEdgeInsets.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		145DA01A230479C700A044D2 /* IBPUICollectionViewCompositionalLayoutConfiguration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 145DA018230479C700A044D2 /* IBPUICollectionViewCompositionalLayoutConfiguration_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		145DA02323097D6E00A044D2 /* IBPNSDirectionalEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 145DA02123097D6E00A044D2 /* IBPNSDirectionalEdgeInsets.m */; };
+		14751C20230C70ED00B3DC87 /* IBPCollectionCompositionalLayoutSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 14751C1E230C70ED00B3DC87 /* IBPCollectionCompositionalLayoutSolver.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		14751C21230C70ED00B3DC87 /* IBPCollectionCompositionalLayoutSolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 14751C1F230C70ED00B3DC87 /* IBPCollectionCompositionalLayoutSolver.m */; };
+		147537BB230A170100337C1B /* IBPNSCollectionLayoutEdgeSpacing_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 147537B9230A170100337C1B /* IBPNSCollectionLayoutEdgeSpacing_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		147537BF230A190F00337C1B /* IBPNSCollectionLayoutSpacing_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 147537BD230A190F00337C1B /* IBPNSCollectionLayoutSpacing_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		147537C7230A6A1300337C1B /* IBPNSCollectionLayoutAnchor_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 147537C5230A6A1300337C1B /* IBPNSCollectionLayoutAnchor_Private.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		14F3F7972300542B0096D032 /* IBPNSCollectionLayoutForwardCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F3F7952300542B0096D032 /* IBPNSCollectionLayoutForwardCompatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		143A2D0822F9C81D00F8904D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 143A2CF422F9C81D00F8904D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 143A2CFC22F9C81D00F8904D;
+			remoteInfo = IBPCollectionViewCompositionalLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		142355262313499B000884C0 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+		142355272313499B000884C0 /* Project-Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Shared.xcconfig"; sourceTree = "<group>"; };
+		142355282313499B000884C0 /* IBPCollectionViewCompositionalLayoutTests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = IBPCollectionViewCompositionalLayoutTests.xcconfig; sourceTree = "<group>"; };
+		142355292313499B000884C0 /* IBPCollectionViewCompositionalLayout.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = IBPCollectionViewCompositionalLayout.xcconfig; sourceTree = "<group>"; };
+		1423552D2313499B000884C0 /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		143A2CFD22F9C81D00F8904D /* IBPCollectionViewCompositionalLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBPCollectionViewCompositionalLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		143A2D0022F9C81D00F8904D /* IBPCollectionViewCompositionalLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBPCollectionViewCompositionalLayout.h; sourceTree = "<group>"; };
+		143A2D0122F9C81D00F8904D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143A2D0622F9C81D00F8904D /* IBPCollectionViewCompositionalLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBPCollectionViewCompositionalLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		143A2D0B22F9C81D00F8904D /* IBPCollectionViewCompositionalLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBPCollectionViewCompositionalLayoutTests.m; sourceTree = "<group>"; };
+		143A2D0D22F9C81D00F8904D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143A2D1722F9CBB000F8904D /* IBPNSCollectionLayoutSupplementaryItem_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutSupplementaryItem_Private.h; sourceTree = "<group>"; };
+		143A2D1822F9CBB000F8904D /* IBPNSCollectionLayoutGroupCustomItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutGroupCustomItem.h; sourceTree = "<group>"; };
+		143A2D1922F9CBB000F8904D /* IBPNSRectAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSRectAlignment.h; sourceTree = "<group>"; };
+		143A2D1A22F9CBB000F8904D /* IBPNSCollectionLayoutSize_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutSize_Private.h; sourceTree = "<group>"; };
+		143A2D1B22F9CBB000F8904D /* IBPNSCollectionLayoutGroup_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutGroup_Private.h; sourceTree = "<group>"; };
+		143A2D1C22F9CBB000F8904D /* IBPCollectionViewOrthogonalScrollerSectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPCollectionViewOrthogonalScrollerSectionController.m; sourceTree = "<group>"; };
+		143A2D1D22F9CBB000F8904D /* IBPNSCollectionLayoutAnchor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutAnchor.h; sourceTree = "<group>"; };
+		143A2D1E22F9CBB000F8904D /* IBPNSCollectionLayoutSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutSection.m; sourceTree = "<group>"; };
+		143A2D2022F9CBB100F8904D /* IBPNSCollectionLayoutGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutGroup.m; sourceTree = "<group>"; };
+		143A2D2122F9CBB100F8904D /* IBPNSCollectionLayoutSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutSpacing.m; sourceTree = "<group>"; };
+		143A2D2222F9CBB100F8904D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m; sourceTree = "<group>"; };
+		143A2D2322F9CBB100F8904D /* IBPNSCollectionLayoutSupplementaryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutSupplementaryItem.h; sourceTree = "<group>"; };
+		143A2D2422F9CBB100F8904D /* IBPCollectionCompositionalLayoutSolverResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPCollectionCompositionalLayoutSolverResult.h; sourceTree = "<group>"; };
+		143A2D2522F9CBB100F8904D /* IBPNSCollectionLayoutEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutEnvironment.h; sourceTree = "<group>"; };
+		143A2D2622F9CBB100F8904D /* IBPNSCollectionLayoutBoundarySupplementaryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutBoundarySupplementaryItem.h; sourceTree = "<group>"; };
+		143A2D2922F9CBB100F8904D /* IBPNSCollectionLayoutGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutGroup.h; sourceTree = "<group>"; };
+		143A2D2A22F9CBB100F8904D /* IBPNSCollectionLayoutEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutEnvironment.m; sourceTree = "<group>"; };
+		143A2D2B22F9CBB100F8904D /* IBPNSCollectionLayoutDimension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutDimension.m; sourceTree = "<group>"; };
+		143A2D2C22F9CBB100F8904D /* IBPCollectionViewOrthogonalScrollerSectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPCollectionViewOrthogonalScrollerSectionController.h; sourceTree = "<group>"; };
+		143A2D2D22F9CBB100F8904D /* IBPUICollectionViewCompositionalLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPUICollectionViewCompositionalLayout.h; sourceTree = "<group>"; };
+		143A2D2E22F9CBB100F8904D /* IBPUICollectionViewCompositionalLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPUICollectionViewCompositionalLayout.m; sourceTree = "<group>"; };
+		143A2D2F22F9CBB100F8904D /* IBPNSCollectionLayoutSection_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutSection_Private.h; sourceTree = "<group>"; };
+		143A2D3022F9CBB100F8904D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h; sourceTree = "<group>"; };
+		143A2D3122F9CBB100F8904D /* IBPNSCollectionLayoutDecorationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutDecorationItem.h; sourceTree = "<group>"; };
+		143A2D3222F9CBB100F8904D /* IBPNSCollectionLayoutDecorationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutDecorationItem.m; sourceTree = "<group>"; };
+		143A2D3322F9CBB100F8904D /* IBPNSCollectionLayoutEnvironment_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutEnvironment_Protocol.h; sourceTree = "<group>"; };
+		143A2D3422F9CBB100F8904D /* IBPNSCollectionLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutItem.h; sourceTree = "<group>"; };
+		143A2D3522F9CBB200F8904D /* IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h; sourceTree = "<group>"; };
+		143A2D3622F9CBB200F8904D /* IBPNSCollectionLayoutEdgeSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutEdgeSpacing.h; sourceTree = "<group>"; };
+		143A2D3722F9CBB200F8904D /* IBPNSCollectionLayoutItem_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutItem_Private.h; sourceTree = "<group>"; };
+		143A2D3822F9CBB200F8904D /* IBPNSDirectionalRectEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSDirectionalRectEdge.h; sourceTree = "<group>"; };
+		143A2D3922F9CBB200F8904D /* IBPNSCollectionLayoutBoundarySupplementaryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutBoundarySupplementaryItem.m; sourceTree = "<group>"; };
+		143A2D3A22F9CBB200F8904D /* IBPNSCollectionLayoutGroupCustomItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutGroupCustomItem.m; sourceTree = "<group>"; };
+		143A2D3B22F9CBB200F8904D /* IBPNSCollectionLayoutSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutSection.h; sourceTree = "<group>"; };
+		143A2D3C22F9CBB200F8904D /* IBPNSCollectionLayoutContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutContainer.h; sourceTree = "<group>"; };
+		143A2D3E22F9CBB200F8904D /* IBPUICollectionViewCompositionalLayoutConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPUICollectionViewCompositionalLayoutConfiguration.h; sourceTree = "<group>"; };
+		143A2D3F22F9CBB200F8904D /* IBPUICollectionViewCompositionalLayoutConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPUICollectionViewCompositionalLayoutConfiguration.m; sourceTree = "<group>"; };
+		143A2D4022F9CBB200F8904D /* IBPNSCollectionLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutItem.m; sourceTree = "<group>"; };
+		143A2D4122F9CBB200F8904D /* IBPNSCollectionLayoutVisibleItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutVisibleItem.h; sourceTree = "<group>"; };
+		143A2D4222F9CBB200F8904D /* IBPNSCollectionLayoutDimension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutDimension.h; sourceTree = "<group>"; };
+		143A2D4322F9CBB200F8904D /* IBPCollectionCompositionalLayoutSolverResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPCollectionCompositionalLayoutSolverResult.m; sourceTree = "<group>"; };
+		143A2D4422F9CBB300F8904D /* IBPNSCollectionLayoutAnchor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutAnchor.m; sourceTree = "<group>"; };
+		143A2D4522F9CBB300F8904D /* IBPNSCollectionLayoutSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutSize.m; sourceTree = "<group>"; };
+		143A2D4622F9CBB300F8904D /* IBPNSCollectionLayoutContainer_Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutContainer_Protocol.h; sourceTree = "<group>"; };
+		143A2D4722F9CBB300F8904D /* IBPNSCollectionLayoutEdgeSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutEdgeSpacing.m; sourceTree = "<group>"; };
+		143A2D4822F9CBB300F8904D /* IBPNSCollectionLayoutContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutContainer.m; sourceTree = "<group>"; };
+		143A2D4922F9CBB300F8904D /* IBPNSCollectionLayoutSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutSize.h; sourceTree = "<group>"; };
+		143A2D4A22F9CBB300F8904D /* IBPNSCollectionLayoutSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutSpacing.h; sourceTree = "<group>"; };
+		143A2D4B22F9CBB300F8904D /* IBPNSCollectionLayoutSupplementaryItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBPNSCollectionLayoutSupplementaryItem.m; sourceTree = "<group>"; };
+		143A2D8122F9CCF900F8904D /* IBPNSDirectionalEdgeInsets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBPNSDirectionalEdgeInsets.h; sourceTree = "<group>"; };
+		145DA018230479C700A044D2 /* IBPUICollectionViewCompositionalLayoutConfiguration_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBPUICollectionViewCompositionalLayoutConfiguration_Private.h; sourceTree = "<group>"; };
+		145DA02123097D6E00A044D2 /* IBPNSDirectionalEdgeInsets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBPNSDirectionalEdgeInsets.m; sourceTree = "<group>"; };
+		14751C1E230C70ED00B3DC87 /* IBPCollectionCompositionalLayoutSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBPCollectionCompositionalLayoutSolver.h; sourceTree = "<group>"; };
+		14751C1F230C70ED00B3DC87 /* IBPCollectionCompositionalLayoutSolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IBPCollectionCompositionalLayoutSolver.m; sourceTree = "<group>"; };
+		147537B9230A170100337C1B /* IBPNSCollectionLayoutEdgeSpacing_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutEdgeSpacing_Private.h; sourceTree = "<group>"; };
+		147537BD230A190F00337C1B /* IBPNSCollectionLayoutSpacing_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutSpacing_Private.h; sourceTree = "<group>"; };
+		147537C5230A6A1300337C1B /* IBPNSCollectionLayoutAnchor_Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutAnchor_Private.h; sourceTree = "<group>"; };
+		14F3F7952300542B0096D032 /* IBPNSCollectionLayoutForwardCompatibility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBPNSCollectionLayoutForwardCompatibility.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		143A2CFA22F9C81D00F8904D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143A2D0322F9C81D00F8904D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143A2D0722F9C81D00F8904D /* IBPCollectionViewCompositionalLayout.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		142355242313498C000884C0 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				142355272313499B000884C0 /* Project-Shared.xcconfig */,
+				142355262313499B000884C0 /* Project-Debug.xcconfig */,
+				1423552D2313499B000884C0 /* Project-Release.xcconfig */,
+				142355292313499B000884C0 /* IBPCollectionViewCompositionalLayout.xcconfig */,
+				142355282313499B000884C0 /* IBPCollectionViewCompositionalLayoutTests.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		143A2CF322F9C81D00F8904D = {
+			isa = PBXGroup;
+			children = (
+				143A2CFF22F9C81D00F8904D /* Sources */,
+				143A2D0A22F9C81D00F8904D /* Tests */,
+				142355242313498C000884C0 /* Configurations */,
+				143A2CFE22F9C81D00F8904D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		143A2CFE22F9C81D00F8904D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				143A2CFD22F9C81D00F8904D /* IBPCollectionViewCompositionalLayout.framework */,
+				143A2D0622F9C81D00F8904D /* IBPCollectionViewCompositionalLayoutTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		143A2CFF22F9C81D00F8904D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				149FA9C1230F2ADD0065AD4D /* IBPCollectionViewCompositionalLayout */,
+				143A2D0122F9C81D00F8904D /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		143A2D0A22F9C81D00F8904D /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				149FA9E2230F30780065AD4D /* IBPCollectionViewCompositionalLayoutTests */,
+				143A2D0D22F9C81D00F8904D /* Info.plist */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		149FA9C1230F2ADD0065AD4D /* IBPCollectionViewCompositionalLayout */ = {
+			isa = PBXGroup;
+			children = (
+				149FA9C3230F2B480065AD4D /* include */,
+				147537C5230A6A1300337C1B /* IBPNSCollectionLayoutAnchor_Private.h */,
+				143A2D4422F9CBB300F8904D /* IBPNSCollectionLayoutAnchor.m */,
+				143A2D3922F9CBB200F8904D /* IBPNSCollectionLayoutBoundarySupplementaryItem.m */,
+				143A2D3C22F9CBB200F8904D /* IBPNSCollectionLayoutContainer.h */,
+				143A2D4822F9CBB300F8904D /* IBPNSCollectionLayoutContainer.m */,
+				143A2D3222F9CBB100F8904D /* IBPNSCollectionLayoutDecorationItem.m */,
+				143A2D2B22F9CBB100F8904D /* IBPNSCollectionLayoutDimension.m */,
+				147537B9230A170100337C1B /* IBPNSCollectionLayoutEdgeSpacing_Private.h */,
+				143A2D4722F9CBB300F8904D /* IBPNSCollectionLayoutEdgeSpacing.m */,
+				143A2D2522F9CBB100F8904D /* IBPNSCollectionLayoutEnvironment.h */,
+				143A2D2A22F9CBB100F8904D /* IBPNSCollectionLayoutEnvironment.m */,
+				143A2D1B22F9CBB000F8904D /* IBPNSCollectionLayoutGroup_Private.h */,
+				143A2D2022F9CBB100F8904D /* IBPNSCollectionLayoutGroup.m */,
+				143A2D3A22F9CBB200F8904D /* IBPNSCollectionLayoutGroupCustomItem.m */,
+				143A2D3722F9CBB200F8904D /* IBPNSCollectionLayoutItem_Private.h */,
+				143A2D4022F9CBB200F8904D /* IBPNSCollectionLayoutItem.m */,
+				143A2D2F22F9CBB100F8904D /* IBPNSCollectionLayoutSection_Private.h */,
+				143A2D1E22F9CBB000F8904D /* IBPNSCollectionLayoutSection.m */,
+				143A2D1A22F9CBB000F8904D /* IBPNSCollectionLayoutSize_Private.h */,
+				143A2D4522F9CBB300F8904D /* IBPNSCollectionLayoutSize.m */,
+				147537BD230A190F00337C1B /* IBPNSCollectionLayoutSpacing_Private.h */,
+				143A2D2122F9CBB100F8904D /* IBPNSCollectionLayoutSpacing.m */,
+				143A2D1722F9CBB000F8904D /* IBPNSCollectionLayoutSupplementaryItem_Private.h */,
+				143A2D4B22F9CBB300F8904D /* IBPNSCollectionLayoutSupplementaryItem.m */,
+				145DA02123097D6E00A044D2 /* IBPNSDirectionalEdgeInsets.m */,
+				143A2D2E22F9CBB100F8904D /* IBPUICollectionViewCompositionalLayout.m */,
+				145DA018230479C700A044D2 /* IBPUICollectionViewCompositionalLayoutConfiguration_Private.h */,
+				143A2D3F22F9CBB200F8904D /* IBPUICollectionViewCompositionalLayoutConfiguration.m */,
+				149FA9C2230F2B230065AD4D /* Internal */,
+			);
+			path = IBPCollectionViewCompositionalLayout;
+			sourceTree = "<group>";
+		};
+		149FA9C2230F2B230065AD4D /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				14751C1E230C70ED00B3DC87 /* IBPCollectionCompositionalLayoutSolver.h */,
+				14751C1F230C70ED00B3DC87 /* IBPCollectionCompositionalLayoutSolver.m */,
+				143A2D2422F9CBB100F8904D /* IBPCollectionCompositionalLayoutSolverResult.h */,
+				143A2D4322F9CBB200F8904D /* IBPCollectionCompositionalLayoutSolverResult.m */,
+				143A2D3022F9CBB100F8904D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h */,
+				143A2D2222F9CBB100F8904D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m */,
+				143A2D2C22F9CBB100F8904D /* IBPCollectionViewOrthogonalScrollerSectionController.h */,
+				143A2D1C22F9CBB000F8904D /* IBPCollectionViewOrthogonalScrollerSectionController.m */,
+			);
+			name = Internal;
+			sourceTree = "<group>";
+		};
+		149FA9C3230F2B480065AD4D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				143A2D0022F9C81D00F8904D /* IBPCollectionViewCompositionalLayout.h */,
+				143A2D1D22F9CBB000F8904D /* IBPNSCollectionLayoutAnchor.h */,
+				143A2D2622F9CBB100F8904D /* IBPNSCollectionLayoutBoundarySupplementaryItem.h */,
+				143A2D4622F9CBB300F8904D /* IBPNSCollectionLayoutContainer_Protocol.h */,
+				143A2D3122F9CBB100F8904D /* IBPNSCollectionLayoutDecorationItem.h */,
+				143A2D4222F9CBB200F8904D /* IBPNSCollectionLayoutDimension.h */,
+				143A2D3622F9CBB200F8904D /* IBPNSCollectionLayoutEdgeSpacing.h */,
+				143A2D3322F9CBB100F8904D /* IBPNSCollectionLayoutEnvironment_Protocol.h */,
+				14F3F7952300542B0096D032 /* IBPNSCollectionLayoutForwardCompatibility.h */,
+				143A2D2922F9CBB100F8904D /* IBPNSCollectionLayoutGroup.h */,
+				143A2D1822F9CBB000F8904D /* IBPNSCollectionLayoutGroupCustomItem.h */,
+				143A2D3422F9CBB100F8904D /* IBPNSCollectionLayoutItem.h */,
+				143A2D3B22F9CBB200F8904D /* IBPNSCollectionLayoutSection.h */,
+				143A2D4922F9CBB300F8904D /* IBPNSCollectionLayoutSize.h */,
+				143A2D4A22F9CBB300F8904D /* IBPNSCollectionLayoutSpacing.h */,
+				143A2D2322F9CBB100F8904D /* IBPNSCollectionLayoutSupplementaryItem.h */,
+				143A2D4122F9CBB200F8904D /* IBPNSCollectionLayoutVisibleItem.h */,
+				143A2D8122F9CCF900F8904D /* IBPNSDirectionalEdgeInsets.h */,
+				143A2D3822F9CBB200F8904D /* IBPNSDirectionalRectEdge.h */,
+				143A2D1922F9CBB000F8904D /* IBPNSRectAlignment.h */,
+				143A2D3522F9CBB200F8904D /* IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h */,
+				143A2D2D22F9CBB100F8904D /* IBPUICollectionViewCompositionalLayout.h */,
+				143A2D3E22F9CBB200F8904D /* IBPUICollectionViewCompositionalLayoutConfiguration.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		149FA9E2230F30780065AD4D /* IBPCollectionViewCompositionalLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				143A2D0B22F9C81D00F8904D /* IBPCollectionViewCompositionalLayoutTests.m */,
+			);
+			path = IBPCollectionViewCompositionalLayoutTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		143A2CF822F9C81D00F8904D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143A2D4D22F9CBB300F8904D /* IBPNSCollectionLayoutGroupCustomItem.h in Headers */,
+				143A2D5A22F9CBB300F8904D /* IBPNSCollectionLayoutEnvironment.h in Headers */,
+				143A2D5222F9CBB300F8904D /* IBPNSCollectionLayoutAnchor.h in Headers */,
+				143A2D6522F9CBB300F8904D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.h in Headers */,
+				143A2D7722F9CBB300F8904D /* IBPNSCollectionLayoutDimension.h in Headers */,
+				143A2D5E22F9CBB300F8904D /* IBPNSCollectionLayoutGroup.h in Headers */,
+				143A2D6622F9CBB300F8904D /* IBPNSCollectionLayoutDecorationItem.h in Headers */,
+				143A2D6C22F9CBB300F8904D /* IBPNSCollectionLayoutItem_Private.h in Headers */,
+				143A2D6122F9CBB300F8904D /* IBPCollectionViewOrthogonalScrollerSectionController.h in Headers */,
+				143A2D4E22F9CBB300F8904D /* IBPNSRectAlignment.h in Headers */,
+				143A2D4C22F9CBB300F8904D /* IBPNSCollectionLayoutSupplementaryItem_Private.h in Headers */,
+				143A2D7622F9CBB300F8904D /* IBPNSCollectionLayoutVisibleItem.h in Headers */,
+				143A2D7122F9CBB300F8904D /* IBPNSCollectionLayoutContainer.h in Headers */,
+				147537BF230A190F00337C1B /* IBPNSCollectionLayoutSpacing_Private.h in Headers */,
+				143A2D5822F9CBB300F8904D /* IBPNSCollectionLayoutSupplementaryItem.h in Headers */,
+				143A2D7322F9CBB300F8904D /* IBPUICollectionViewCompositionalLayoutConfiguration.h in Headers */,
+				143A2D6B22F9CBB300F8904D /* IBPNSCollectionLayoutEdgeSpacing.h in Headers */,
+				14751C20230C70ED00B3DC87 /* IBPCollectionCompositionalLayoutSolver.h in Headers */,
+				143A2D7E22F9CBB300F8904D /* IBPNSCollectionLayoutSize.h in Headers */,
+				143A2D7F22F9CBB300F8904D /* IBPNSCollectionLayoutSpacing.h in Headers */,
+				143A2D6D22F9CBB300F8904D /* IBPNSDirectionalRectEdge.h in Headers */,
+				143A2D7022F9CBB300F8904D /* IBPNSCollectionLayoutSection.h in Headers */,
+				143A2D7B22F9CBB300F8904D /* IBPNSCollectionLayoutContainer_Protocol.h in Headers */,
+				147537BB230A170100337C1B /* IBPNSCollectionLayoutEdgeSpacing_Private.h in Headers */,
+				143A2D5022F9CBB300F8904D /* IBPNSCollectionLayoutGroup_Private.h in Headers */,
+				145DA01A230479C700A044D2 /* IBPUICollectionViewCompositionalLayoutConfiguration_Private.h in Headers */,
+				143A2D6822F9CBB300F8904D /* IBPNSCollectionLayoutEnvironment_Protocol.h in Headers */,
+				143A2D6922F9CBB300F8904D /* IBPNSCollectionLayoutItem.h in Headers */,
+				143A2D6A22F9CBB300F8904D /* IBPUICollectionLayoutSectionOrthogonalScrollingBehavior.h in Headers */,
+				14F3F7972300542B0096D032 /* IBPNSCollectionLayoutForwardCompatibility.h in Headers */,
+				143A2D0E22F9C81D00F8904D /* IBPCollectionViewCompositionalLayout.h in Headers */,
+				143A2D5922F9CBB300F8904D /* IBPCollectionCompositionalLayoutSolverResult.h in Headers */,
+				143A2D6222F9CBB300F8904D /* IBPUICollectionViewCompositionalLayout.h in Headers */,
+				143A2D5B22F9CBB300F8904D /* IBPNSCollectionLayoutBoundarySupplementaryItem.h in Headers */,
+				147537C7230A6A1300337C1B /* IBPNSCollectionLayoutAnchor_Private.h in Headers */,
+				143A2D6422F9CBB300F8904D /* IBPNSCollectionLayoutSection_Private.h in Headers */,
+				143A2D4F22F9CBB300F8904D /* IBPNSCollectionLayoutSize_Private.h in Headers */,
+				143A2D8322F9CCF900F8904D /* IBPNSDirectionalEdgeInsets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		143A2CFC22F9C81D00F8904D /* IBPCollectionViewCompositionalLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143A2D1122F9C81D00F8904D /* Build configuration list for PBXNativeTarget "IBPCollectionViewCompositionalLayout" */;
+			buildPhases = (
+				143A2CF822F9C81D00F8904D /* Headers */,
+				143A2CF922F9C81D00F8904D /* Sources */,
+				143A2CFA22F9C81D00F8904D /* Frameworks */,
+				143A2CFB22F9C81D00F8904D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBPCollectionViewCompositionalLayout;
+			productName = IBPCollectionViewCompositionalLayout;
+			productReference = 143A2CFD22F9C81D00F8904D /* IBPCollectionViewCompositionalLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		143A2D0522F9C81D00F8904D /* IBPCollectionViewCompositionalLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 143A2D1422F9C81D00F8904D /* Build configuration list for PBXNativeTarget "IBPCollectionViewCompositionalLayoutTests" */;
+			buildPhases = (
+				143A2D0222F9C81D00F8904D /* Sources */,
+				143A2D0322F9C81D00F8904D /* Frameworks */,
+				143A2D0422F9C81D00F8904D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				143A2D0922F9C81D00F8904D /* PBXTargetDependency */,
+			);
+			name = IBPCollectionViewCompositionalLayoutTests;
+			productName = IBPCollectionViewCompositionalLayoutTests;
+			productReference = 143A2D0622F9C81D00F8904D /* IBPCollectionViewCompositionalLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		143A2CF422F9C81D00F8904D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Kishikawa Katsumi";
+				TargetAttributes = {
+					143A2CFC22F9C81D00F8904D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					143A2D0522F9C81D00F8904D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 143A2CF722F9C81D00F8904D /* Build configuration list for PBXProject "IBPCollectionViewCompositionalLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 143A2CF322F9C81D00F8904D;
+			productRefGroup = 143A2CFE22F9C81D00F8904D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				143A2CFC22F9C81D00F8904D /* IBPCollectionViewCompositionalLayout */,
+				143A2D0522F9C81D00F8904D /* IBPCollectionViewCompositionalLayoutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		143A2CFB22F9C81D00F8904D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143A2D0422F9C81D00F8904D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		143A2CF922F9C81D00F8904D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143A2D7D22F9CBB300F8904D /* IBPNSCollectionLayoutContainer.m in Sources */,
+				143A2D7922F9CBB300F8904D /* IBPNSCollectionLayoutAnchor.m in Sources */,
+				143A2D5622F9CBB300F8904D /* IBPNSCollectionLayoutSpacing.m in Sources */,
+				143A2D6722F9CBB300F8904D /* IBPNSCollectionLayoutDecorationItem.m in Sources */,
+				14751C21230C70ED00B3DC87 /* IBPCollectionCompositionalLayoutSolver.m in Sources */,
+				143A2D8022F9CBB300F8904D /* IBPNSCollectionLayoutSupplementaryItem.m in Sources */,
+				143A2D7C22F9CBB300F8904D /* IBPNSCollectionLayoutEdgeSpacing.m in Sources */,
+				143A2D7422F9CBB300F8904D /* IBPUICollectionViewCompositionalLayoutConfiguration.m in Sources */,
+				143A2D7A22F9CBB300F8904D /* IBPNSCollectionLayoutSize.m in Sources */,
+				143A2D5722F9CBB300F8904D /* IBPCollectionViewOrthogonalScrollerEmbeddedScrollView.m in Sources */,
+				143A2D6322F9CBB300F8904D /* IBPUICollectionViewCompositionalLayout.m in Sources */,
+				143A2D6E22F9CBB300F8904D /* IBPNSCollectionLayoutBoundarySupplementaryItem.m in Sources */,
+				143A2D7822F9CBB300F8904D /* IBPCollectionCompositionalLayoutSolverResult.m in Sources */,
+				143A2D5322F9CBB300F8904D /* IBPNSCollectionLayoutSection.m in Sources */,
+				143A2D5522F9CBB300F8904D /* IBPNSCollectionLayoutGroup.m in Sources */,
+				143A2D5122F9CBB300F8904D /* IBPCollectionViewOrthogonalScrollerSectionController.m in Sources */,
+				143A2D6022F9CBB300F8904D /* IBPNSCollectionLayoutDimension.m in Sources */,
+				143A2D6F22F9CBB300F8904D /* IBPNSCollectionLayoutGroupCustomItem.m in Sources */,
+				143A2D5F22F9CBB300F8904D /* IBPNSCollectionLayoutEnvironment.m in Sources */,
+				145DA02323097D6E00A044D2 /* IBPNSDirectionalEdgeInsets.m in Sources */,
+				143A2D7522F9CBB300F8904D /* IBPNSCollectionLayoutItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		143A2D0222F9C81D00F8904D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				143A2D0C22F9C81D00F8904D /* IBPCollectionViewCompositionalLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		143A2D0922F9C81D00F8904D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 143A2CFC22F9C81D00F8904D /* IBPCollectionViewCompositionalLayout */;
+			targetProxy = 143A2D0822F9C81D00F8904D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		143A2D0F22F9C81D00F8904D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142355262313499B000884C0 /* Project-Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		143A2D1022F9C81D00F8904D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1423552D2313499B000884C0 /* Project-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		143A2D1222F9C81D00F8904D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142355292313499B000884C0 /* IBPCollectionViewCompositionalLayout.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		143A2D1322F9C81D00F8904D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142355292313499B000884C0 /* IBPCollectionViewCompositionalLayout.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		143A2D1522F9C81D00F8904D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142355282313499B000884C0 /* IBPCollectionViewCompositionalLayoutTests.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		143A2D1622F9C81D00F8904D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 142355282313499B000884C0 /* IBPCollectionViewCompositionalLayoutTests.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		143A2CF722F9C81D00F8904D /* Build configuration list for PBXProject "IBPCollectionViewCompositionalLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143A2D0F22F9C81D00F8904D /* Debug */,
+				143A2D1022F9C81D00F8904D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143A2D1122F9C81D00F8904D /* Build configuration list for PBXNativeTarget "IBPCollectionViewCompositionalLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143A2D1222F9C81D00F8904D /* Debug */,
+				143A2D1322F9C81D00F8904D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		143A2D1422F9C81D00F8904D /* Build configuration list for PBXNativeTarget "IBPCollectionViewCompositionalLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				143A2D1522F9C81D00F8904D /* Debug */,
+				143A2D1622F9C81D00F8904D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 143A2CF422F9C81D00F8904D /* Project object */;
+}

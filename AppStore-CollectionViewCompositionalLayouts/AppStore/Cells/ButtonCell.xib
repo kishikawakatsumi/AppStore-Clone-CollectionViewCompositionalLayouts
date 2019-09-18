@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="0Ac-yi-U0u" customClass="ButtonCell" customModule="AppStore" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="7Aw-2N-av2">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Khw-Ck-T3X">
+                        <rect key="frame" x="20" y="5" width="335" height="40"/>
+                        <color key="backgroundColor" systemColor="secondarySystemFillColor" red="0.47058823529999999" green="0.47058823529999999" blue="0.50196078430000002" alpha="0.16" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="4UK-yP-sOZ"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Redeem" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PCj-gC-hvW">
+                        <rect key="frame" x="156.5" y="15" width="62" height="20"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                        <color key="textColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Khw-Ck-T3X" firstAttribute="leading" secondItem="7Aw-2N-av2" secondAttribute="leading" constant="20" id="14D-ZE-7Vb"/>
+                    <constraint firstAttribute="trailing" secondItem="Khw-Ck-T3X" secondAttribute="trailing" constant="20" id="48t-Vo-xAu"/>
+                    <constraint firstItem="PCj-gC-hvW" firstAttribute="centerX" secondItem="7Aw-2N-av2" secondAttribute="centerX" id="pyS-Im-WnX"/>
+                    <constraint firstItem="Khw-Ck-T3X" firstAttribute="centerY" secondItem="7Aw-2N-av2" secondAttribute="centerY" id="uJb-nj-Ljy"/>
+                    <constraint firstItem="PCj-gC-hvW" firstAttribute="centerY" secondItem="7Aw-2N-av2" secondAttribute="centerY" id="uuJ-D2-GWf"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="buttonView" destination="Khw-Ck-T3X" id="OqX-uu-GWf"/>
+                <outlet property="titleLabel" destination="PCj-gC-hvW" id="0iJ-Dv-CLz"/>
+            </connections>
+            <point key="canvasLocation" x="7" y="234"/>
+        </collectionViewCell>
+    </objects>
+</document>

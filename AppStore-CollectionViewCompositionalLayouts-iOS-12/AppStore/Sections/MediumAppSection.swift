@@ -1,0 +1,1 @@
+../../../AppStore-CollectionViewCompositionalLayouts/AppStore/Sections/MediumAppSection.swift
